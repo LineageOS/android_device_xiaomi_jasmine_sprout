@@ -62,7 +62,8 @@ PRODUCT_PACKAGES_DEBUG += \
 
 # Init
 PRODUCT_PACKAGES += \
-    fstab.qcom
+    fstab.qcom \
+    init.verity.rc
 
 # Update engine
 PRODUCT_PACKAGES += \
