@@ -24,5 +24,9 @@
 # Inherit from wayne-common
 $(call inherit-product, device/xiaomi/wayne-common/wayne.mk)
 
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    device/xiaomi/wayne/overlay
+
 # Inherit proprietary files
 $(call inherit-product-if-exists, vendor/xiaomi/wayne/wayne-vendor.mk)
