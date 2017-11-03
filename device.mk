@@ -73,5 +73,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES_DEBUG += \
     update_engine_client
 
+# Verity
+PRODUCT_SYSTEM_VERITY_PARTITION := /dev/block/bootdevice/by-name/system
+$(call inherit-product, build/target/product/verity.mk)
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/jasmine_sprout/jasmine_sprout-vendor.mk)
