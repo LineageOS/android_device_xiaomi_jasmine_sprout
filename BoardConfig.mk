@@ -27,5 +27,7 @@
 
 DEVICE_PATH := device/xiaomi/wayne
 
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
 # Inherit the proprietary files
 -include vendor/xiaomi/wayne/BoardConfigVendor.mk
