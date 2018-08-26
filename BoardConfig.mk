@@ -32,11 +32,11 @@ BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 BOARD_USES_RECOVERY_AS_BOOT := true
 TARGET_NO_RECOVERY := true
 
-# Properties
-TARGET_VENDOR_PROP := $(DEVICE_PATH)/vendor.prop
-
 # Root Folders
 BOARD_ROOT_EXTRA_FOLDERS := bt_firmware dsp firmware persist
+
+# Security patch level
+VENDOR_SECURITY_PATCH := 2018-08-05
 
 # Inherit the proprietary files
 -include vendor/xiaomi/jasmine_sprout/BoardConfigVendor.mk
