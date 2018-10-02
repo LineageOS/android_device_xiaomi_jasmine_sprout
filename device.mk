@@ -28,6 +28,10 @@ $(call inherit-product, device/xiaomi/wayne-common/wayne.mk)
 DEVICE_PACKAGE_OVERLAYS += \
     device/xiaomi/jasmine_sprout/overlay
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH)
+
 # A/B
 AB_OTA_UPDATER := true
 
