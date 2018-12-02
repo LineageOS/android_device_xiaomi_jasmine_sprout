@@ -1,6 +1,6 @@
 [
   {
-    "repository": "android_packages_resources_devicesettings",
-    "target_path": "packages/resources/devicesettings"
+    "repository": "android_device_xiaomi_wayne-common",
+    "target_path": "device/xiaomi/wayne-common"
   }
 ]

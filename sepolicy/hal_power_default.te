@@ -1,1 +1,0 @@
-allow hal_power_default proc:file rw_file_perms;
