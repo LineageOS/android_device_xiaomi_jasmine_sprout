@@ -27,6 +27,8 @@
 
 DEVICE_PATH := device/xiaomi/wayne
 
+TARGET_LIBINIT_WAYNE_DEFINES_FILE := $(DEVICE_PATH)/init/init_wayne.cpp
+
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Inherit the proprietary files
