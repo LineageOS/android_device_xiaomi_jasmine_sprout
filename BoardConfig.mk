@@ -25,7 +25,7 @@
 # Inherit from wayne-common
 -include device/xiaomi/wayne-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/xiaomi/jasmine
+DEVICE_PATH := device/xiaomi/jasmine_sprout
 
 # A/B
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
@@ -39,4 +39,4 @@ TARGET_VENDOR_PROP := $(DEVICE_PATH)/vendor.prop
 BOARD_ROOT_EXTRA_FOLDERS := bt_firmware dsp firmware persist
 
 # Inherit the proprietary files
--include vendor/xiaomi/jasmine/BoardConfigVendor.mk
+-include vendor/xiaomi/jasmine_sprout/BoardConfigVendor.mk

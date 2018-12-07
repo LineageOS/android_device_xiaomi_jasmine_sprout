@@ -26,9 +26,9 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 PRODUCT_BRAND := Xiaomi
-PRODUCT_DEVICE := jasmine
+PRODUCT_DEVICE := jasmine_sprout
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := lineage_jasmine
+PRODUCT_NAME := lineage_jasmine_sprout
 PRODUCT_MODEL := Mi A2
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi

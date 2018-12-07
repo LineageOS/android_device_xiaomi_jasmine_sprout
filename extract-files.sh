@@ -17,7 +17,7 @@
 
 set -e
 
-export DEVICE=jasmine
+export DEVICE=jasmine_sprout
 export VENDOR=xiaomi
 export DEVICE_COMMON=wayne-common
 

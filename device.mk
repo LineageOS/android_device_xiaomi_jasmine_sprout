@@ -68,4 +68,4 @@ PRODUCT_VENDOR_VERITY_PARTITION := /dev/block/platform/soc/c0c4000.sdhci/by-name
 $(call inherit-product, build/target/product/verity.mk)
 
 # Inherit proprietary files
-$(call inherit-product, vendor/xiaomi/jasmine/jasmine-vendor.mk)
+$(call inherit-product, vendor/xiaomi/jasmine_sprout/jasmine_sprout-vendor.mk)

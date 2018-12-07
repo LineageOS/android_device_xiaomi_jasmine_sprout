@@ -1,4 +1,4 @@
-This repository contains device configuration for Xiaomi MI A2 (jasmine)
+This repository contains device configuration for Xiaomi MI A2 (jasmine_sprout)
 
 Basic   | Spec Sheet
 -------:|:----------
