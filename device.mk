@@ -25,4 +25,4 @@
 $(call inherit-product, device/xiaomi/wayne-common/wayne.mk)
 
 # Inherit proprietary files
-$(call inherit-product, vendor/xiaomi/wayne/wayne-vendor.mk)
+$(call inherit-product-if-exists, vendor/xiaomi/wayne/wayne-vendor.mk)
