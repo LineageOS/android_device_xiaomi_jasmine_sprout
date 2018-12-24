@@ -741,3 +741,14 @@ vendor/lib/libmmcamera_isp_scaler_viewfinder46.so
 vendor/lib/libmmcamera_isp_sce40.so
 vendor/lib/libmmcamera_isp_snr47.so
 vendor/lib/libmmcamera_isp_sub_module.so
+
+# Mlipay - from wayne MODEM
+vendor/firmware/mlipay.b00
+vendor/firmware/mlipay.b01
+vendor/firmware/mlipay.b02
+vendor/firmware/mlipay.b03
+vendor/firmware/mlipay.b04
+vendor/firmware/mlipay.b05
+vendor/firmware/mlipay.b06
+vendor/firmware/mlipay.b07
+vendor/firmware/mlipay.mdt
