@@ -743,12 +743,12 @@ vendor/lib/libmmcamera_isp_snr47.so
 vendor/lib/libmmcamera_isp_sub_module.so
 
 # Mlipay - from wayne MODEM
-vendor/firmware/mlipay.b00
-vendor/firmware/mlipay.b01
-vendor/firmware/mlipay.b02
-vendor/firmware/mlipay.b03
-vendor/firmware/mlipay.b04
-vendor/firmware/mlipay.b05
-vendor/firmware/mlipay.b06
-vendor/firmware/mlipay.b07
-vendor/firmware/mlipay.mdt
+vendor/firmware/mlipay.b00|58da03681af18fb1c8aecc1f4b31448835db0af4
+vendor/firmware/mlipay.b01|12002509f55c74ccbcd7ddcf3d37dbe76ae191a3
+vendor/firmware/mlipay.b02|751d708ca1a97af48f73c2959cbf15c7c60278ba
+vendor/firmware/mlipay.b03|da064a17a6b354a15d0546a4969d10a630dc8d50
+vendor/firmware/mlipay.b04|bd9bc58e6e6f7cba9fb14d7f34ce980b4b53786c
+vendor/firmware/mlipay.b05|8349c12a07211fb4324c48b10588f1ed09106a69
+vendor/firmware/mlipay.b06|8349c12a07211fb4324c48b10588f1ed09106a69
+vendor/firmware/mlipay.b07|510def2bde8b36507468365996c13a6d1363f49e
+vendor/firmware/mlipay.mdt|e9697131d6f4e31de35b14e665614d16a2386183
