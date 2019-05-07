@@ -28,6 +28,13 @@ include device/xiaomi/wayne-common/BoardConfigCommon.mk
 DEVICE_PATH := device/xiaomi/jasmine_sprout
 
 # A/B
+AB_OTA_UPDATER := true
+
+AB_OTA_PARTITIONS += \
+    boot \
+    system \
+    vendor
+
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 BOARD_USES_RECOVERY_AS_BOOT := true
 TARGET_NO_RECOVERY := true
