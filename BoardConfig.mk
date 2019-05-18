@@ -27,6 +27,14 @@ include device/xiaomi/wayne-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/jasmine_sprout
 
+# A/B
+BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
+BOARD_USES_RECOVERY_AS_BOOT := true
+TARGET_NO_RECOVERY := true
+
+# HIDL
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
