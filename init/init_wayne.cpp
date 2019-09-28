@@ -35,7 +35,7 @@
 #include <android-base/file.h>
 #include <android-base/properties.h>
 
-#include "init_wayne.h"
+#include "init_sdm660.h"
 
 #include "vendor_init.h"
 #include "property_service.h"
