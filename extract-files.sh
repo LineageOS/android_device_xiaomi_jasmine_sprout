@@ -19,6 +19,6 @@ set -e
 
 export DEVICE=wayne
 export VENDOR=xiaomi
-export DEVICE_COMMON=wayne-common
+export DEVICE_SPECIFIED_COMMON=wayne-common
 
-./../../$VENDOR/$DEVICE_COMMON/extract-files.sh $@
+./../../$VENDOR/$DEVICE_SPECIFIED_COMMON/extract-files.sh $@
