@@ -22,7 +22,7 @@ export VENDOR=xiaomi
 export DEVICE_BRINGUP_YEAR=2018
 export DEVICE_SPECIFIED_COMMON=wayne-common
 
-./../../$VENDOR/$DEVICE_SPECIFIED_COMMON/extract-files.sh $@
+./../../$VENDOR/$DEVICE_SPECIFIED_COMMON/extract-files.sh "$@"
 
 MY_DIR="${BASH_SOURCE%/*}"
 if [[ ! -d "$MY_DIR" ]]; then MY_DIR="$PWD"; fi
