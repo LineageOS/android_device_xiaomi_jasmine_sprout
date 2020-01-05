@@ -19,7 +19,7 @@ set -e
 
 export DEVICE=wayne
 export VENDOR=xiaomi
-export INITIAL_COPYRIGHT_YEAR=2018
+export DEVICE_BRINGUP_YEAR=2018
 export DEVICE_SPECIFIED_COMMON=wayne-common
 
 ./../../$VENDOR/$DEVICE_SPECIFIED_COMMON/setup-makefiles.sh $@
