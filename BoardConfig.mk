@@ -27,8 +27,6 @@
 
 DEVICE_PATH := device/xiaomi/wayne
 
-TARGET_LIBINIT_EXTERNAL_DEFINES_FILE := $(DEVICE_PATH)/init/init_wayne.cpp
-
 # Security patch level
 VENDOR_SECURITY_PATCH := 2018-11-01
 

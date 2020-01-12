@@ -28,6 +28,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := wayne
 PRODUCT_MANUFACTURER := Xiaomi
+PRODUCT_MODEL := MI 6X
 PRODUCT_NAME := lineage_wayne
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
@@ -38,6 +39,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="wayne-user 8.1.0 OPM1.171019.011 V10.0.3.0.ODCCNFH release-keys"
 
 BUILD_FINGERPRINT := xiaomi/wayne/wayne:8.1.0/OPM1.171019.011/V10.0.3.0.ODCCNFH:user/release-keys
-
-PRODUCT_SYSTEM_PROPERTY_BLACKLIST += \
-    ro.product.model
