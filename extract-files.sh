@@ -17,7 +17,7 @@
 
 set -e
 
-export DEVICE=wayne
+export DEVICE=jasmine_sprout
 export VENDOR=xiaomi
 export DEVICE_BRINGUP_YEAR=2018
 export DEVICE_SPECIFIED_COMMON=wayne-common

@@ -1,4 +1,4 @@
-This repository contains device configuration for Xiaomi MI 6X (wayne)
+This repository contains device configuration for Xiaomi Mi A2 (jasmine_sprout)
 
 Basic   | Spec Sheet
 -------:|:----------
@@ -14,7 +14,7 @@ Display | 1080x2160 pixels, 5.99
 Rear Camera  | 12MP+20MP, AI Dual Camera
 Front Camera | 20 MP
 
-![Xiaomi MI 6X](https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/a4842f9afc615164af83c2088a412fc0.jpg "Xiaomi MI 6X")
+![Xiaomi MI A2](https://i01.appmifile.com/webfile/globalimg/7/FF67F07B-049A-98ED-E767-44DC01387F59.jpg "Xiaomi Mi A2")
 
 ## Copyright
 

@@ -1,7 +1,7 @@
-# Camera - from wayne
+# Camera - from jasmine
 vendor/etc/MIUI_DualCamera_watermark.png
 
-# Fingerprint - from wayne
+# Fingerprint - from jasmine
 vendor/lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.sdm660.so
 vendor/lib64/hw/fingerprint.fpc.default.so
 vendor/lib64/hw/fingerprint.goodix.default.so
