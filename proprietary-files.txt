@@ -1,3 +1,6 @@
+# Camera - from wayne
+vendor/etc/MIUI_DualCamera_watermark.png
+
 # Fingerprint - from wayne
 vendor/lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.sdm660.so
 vendor/lib64/hw/fingerprint.fpc.default.so
