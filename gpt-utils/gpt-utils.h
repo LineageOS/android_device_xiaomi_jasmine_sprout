@@ -80,11 +80,9 @@ extern "C" {
 #define AB_SLOT_B_SUFFIX                "_b"
 #define PTN_XBL                         "xbl"
 #define PTN_SWAP_LIST                   PTN_XBL, \
-        "abl", "aboot", "apdp", "bootlocker", "cmnlib", "cmnlib32", \
-        "cmnlib64", "devcfg", "dtbo", "hosd", "hyp", "keymaster", \
-        "lockbooter", "msadp", "pmic", "rpm", "storsec", \
-        "trusty", "tz", "vbmeta"
-#define AB_PTN_LIST PTN_SWAP_LIST, "boot", "system", "vendor", "modem"
+        "abl", "cmnlib", "cmnlib64", "devcfg", "dsp", "hyp", "keymaster", \
+        "mdtp", "mdtpsecapp", "pmic", "rpm", "tz", "vbmeta"
+#define AB_PTN_LIST PTN_SWAP_LIST, "boot", "system", "vendor", "modem", "bluetooth"
 #define BOOT_DEV_DIR    "/dev/block/bootdevice/by-name"
 
 /******************************************************************************
