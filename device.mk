@@ -21,6 +21,8 @@
 # definition file).
 #
 
+AB_OTA_UPDATER := true
+
 # Inherit from wayne-common
 $(call inherit-product, device/xiaomi/wayne-common/wayne.mk)
 
