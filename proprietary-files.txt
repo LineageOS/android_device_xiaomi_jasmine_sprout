@@ -1,12 +1,12 @@
 # Camera - from jasmine
 vendor/etc/MIUI_DualCamera_watermark.png
 
-# Fingerprint - from jasmine
-vendor/lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.sdm660.so
-vendor/lib64/hw/fingerprint.fpc.default.so
-vendor/lib64/hw/fingerprint.goodix.default.so
-vendor/lib64/com.fingerprints.extension@1.0.so
-vendor/lib64/libgf_ca.so
-vendor/lib64/libgf_hal.so
-vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so
-vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so
+# Fingerprint - from jasmine V10.0.2.0.PDIMIFJ
+vendor/lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.sdm660.so|a614d71107ce28380e8cdcab23e80fb7d014a22d
+vendor/lib64/hw/fingerprint.fpc.default.so|ac0285f2ee91037477771bac74436fa03828edf6
+vendor/lib64/hw/fingerprint.goodix.default.so|30a459e4ff9c047d1cc6a130885460cc07426826
+vendor/lib64/com.fingerprints.extension@1.0.so|2ae37b689b286921702cf9533e9f09ffe6736968
+vendor/lib64/libgf_ca.so|24a5dc2647d5c4b892ed16d74c31cc841604a505|b7635dcbea9a7e7252e746914f995a5ffb92b5d0
+vendor/lib64/libgf_hal.so|d601b957f58e840d2ff5a69f7fda74aca93805b2
+vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so|ac7f5d1a9cfc04926cde4fb475d074331ba8dbf5
+vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so|b47f3d59c111a97a47ed38d4cb05ddf59a47ebac
